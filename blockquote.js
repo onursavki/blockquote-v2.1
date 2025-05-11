@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 if (applicationStatus) {
                     applicationStatus.innerHTML = `
-                        <h4><i class="bi bi-envelope-x" style="color: red;"></i> EKİP ALIMLARI KAPALI</h4>
+                        <h4><i class="bi bi-envelope-x" style="color: red; font-size:24px"></i> EKİP ALIMLARI KAPALI</h4>
                         <p>Üzgünüz, şu an Ekip alımlarımız kapalı; sizi aramızda görmek için sabırsızlanıyoruz, bizi takipte kalın!</p>
                         <footer>Ekip Games™</footer>
                     `;
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 if (applicationStatus) {
                     applicationStatus.innerHTML = `
-                        <h4><i class="bi bi-envelope-paper" style="color: green;"></i> EKİP ALIMLARI AÇIK</h4>
+                        <h4><i class="bi bi-envelope-paper" style="color: green; font-size:24px"></i> EKİP ALIMLARI AÇIK</h4>
                         <p>Başvurunuzu sabırsızlıkla bekliyoruz ve umarız yakında Ekip Games™ ailesinin bir parçası olursunuz!</p>
                         <footer>Ekip Games™</footer>
                     `;
